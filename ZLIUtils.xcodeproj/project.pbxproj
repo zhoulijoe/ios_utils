@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E42CB04CFC34A349CAD3D84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEBFFA98638428A96356384 /* libPods.a */; };
+		CB1FB26E1917522C00403479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB26D1917522C00403479 /* Foundation.framework */; };
+		CB1FB2731917522C00403479 /* ZLILogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB1FB2721917522C00403479 /* ZLILogger.h */; };
+		CB1FB2751917522C00403479 /* ZLILogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2741917522C00403479 /* ZLILogger.m */; };
+		CB1FB27C1917522C00403479 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB27B1917522C00403479 /* XCTest.framework */; };
+		CB1FB27D1917522C00403479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB26D1917522C00403479 /* Foundation.framework */; };
+		CB1FB27F1917522C00403479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB27E1917522C00403479 /* UIKit.framework */; };
+		CB1FB2821917522C00403479 /* libZLIUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB26A1917522C00403479 /* libZLIUtils.a */; };
+		CB1FB2881917522C00403479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1FB2861917522C00403479 /* InfoPlist.strings */; };
+		CB1FB28A1917522C00403479 /* ZLIUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2891917522C00403479 /* ZLIUtilsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB1FB2801917522C00403479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB1FB2621917522C00403479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB1FB2691917522C00403479;
+			remoteInfo = ZLIUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB1FB2681917522C00403479 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CB1FB2731917522C00403479 /* ZLILogger.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1BEBFFA98638428A96356384 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1549AEE30B846D38F589BDF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CB1FB26A1917522C00403479 /* libZLIUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZLIUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1FB26D1917522C00403479 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB1FB2711917522C00403479 /* ZLIUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZLIUtils-Prefix.pch"; sourceTree = "<group>"; };
+		CB1FB2721917522C00403479 /* ZLILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLILogger.h; sourceTree = "<group>"; };
+		CB1FB2741917522C00403479 /* ZLILogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLILogger.m; sourceTree = "<group>"; };
+		CB1FB27A1917522C00403479 /* ZLIUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLIUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1FB27B1917522C00403479 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB1FB27E1917522C00403479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CB1FB2851917522C00403479 /* ZLIUtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZLIUtilsTests-Info.plist"; sourceTree = "<group>"; };
+		CB1FB2871917522C00403479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB1FB2891917522C00403479 /* ZLIUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLIUtilsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB1FB2671917522C00403479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB26E1917522C00403479 /* Foundation.framework in Frameworks */,
+				2E42CB04CFC34A349CAD3D84 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1FB2771917522C00403479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB27C1917522C00403479 /* XCTest.framework in Frameworks */,
+				CB1FB27F1917522C00403479 /* UIKit.framework in Frameworks */,
+				CB1FB27D1917522C00403479 /* Foundation.framework in Frameworks */,
+				CB1FB2821917522C00403479 /* libZLIUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1FB2611917522C00403479 = {
+			isa = PBXGroup;
+			children = (
+				CB1FB26F1917522C00403479 /* ZLIUtils */,
+				CB1FB2831917522C00403479 /* ZLIUtilsTests */,
+				CB1FB26C1917522C00403479 /* Frameworks */,
+				CB1FB26B1917522C00403479 /* Products */,
+				A1549AEE30B846D38F589BDF /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CB1FB26B1917522C00403479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB26A1917522C00403479 /* libZLIUtils.a */,
+				CB1FB27A1917522C00403479 /* ZLIUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1FB26C1917522C00403479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB26D1917522C00403479 /* Foundation.framework */,
+				CB1FB27B1917522C00403479 /* XCTest.framework */,
+				CB1FB27E1917522C00403479 /* UIKit.framework */,
+				1BEBFFA98638428A96356384 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB1FB26F1917522C00403479 /* ZLIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB2721917522C00403479 /* ZLILogger.h */,
+				CB1FB2741917522C00403479 /* ZLILogger.m */,
+				CB1FB2701917522C00403479 /* Supporting Files */,
+			);
+			path = ZLIUtils;
+			sourceTree = "<group>";
+		};
+		CB1FB2701917522C00403479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB2711917522C00403479 /* ZLIUtils-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB1FB2831917522C00403479 /* ZLIUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB2891917522C00403479 /* ZLIUtilsTests.m */,
+				CB1FB2841917522C00403479 /* Supporting Files */,
+			);
+			path = ZLIUtilsTests;
+			sourceTree = "<group>";
+		};
+		CB1FB2841917522C00403479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1FB2851917522C00403479 /* ZLIUtilsTests-Info.plist */,
+				CB1FB2861917522C00403479 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB1FB2691917522C00403479 /* ZLIUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1FB28D1917522C00403479 /* Build configuration list for PBXNativeTarget "ZLIUtils" */;
+			buildPhases = (
+				B6A4697B94D441759F8C27FC /* Check Pods Manifest.lock */,
+				CB1FB2661917522C00403479 /* Sources */,
+				CB1FB2671917522C00403479 /* Frameworks */,
+				CB1FB2681917522C00403479 /* CopyFiles */,
+				93060E002C834120956F0F0F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLIUtils;
+			productName = ZLIUtils;
+			productReference = CB1FB26A1917522C00403479 /* libZLIUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB1FB2791917522C00403479 /* ZLIUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1FB2901917522C00403479 /* Build configuration list for PBXNativeTarget "ZLIUtilsTests" */;
+			buildPhases = (
+				CB1FB2761917522C00403479 /* Sources */,
+				CB1FB2771917522C00403479 /* Frameworks */,
+				CB1FB2781917522C00403479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB1FB2811917522C00403479 /* PBXTargetDependency */,
+			);
+			name = ZLIUtilsTests;
+			productName = ZLIUtilsTests;
+			productReference = CB1FB27A1917522C00403479 /* ZLIUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1FB2621917522C00403479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhou;
+			};
+			buildConfigurationList = CB1FB2651917522C00403479 /* Build configuration list for PBXProject "ZLIUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB1FB2611917522C00403479;
+			productRefGroup = CB1FB26B1917522C00403479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB1FB2691917522C00403479 /* ZLIUtils */,
+				CB1FB2791917522C00403479 /* ZLIUtilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB1FB2781917522C00403479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB2881917522C00403479 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93060E002C834120956F0F0F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A4697B94D441759F8C27FC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB1FB2661917522C00403479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB2751917522C00403479 /* ZLILogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1FB2761917522C00403479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1FB28A1917522C00403479 /* ZLIUtilsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB1FB2811917522C00403479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB1FB2691917522C00403479 /* ZLIUtils */;
+			targetProxy = CB1FB2801917522C00403479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB1FB2861917522C00403479 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1FB2871917522C00403479 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB1FB28B1917522C00403479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB1FB28C1917522C00403479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1FB28E1917522C00403479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1549AEE30B846D38F589BDF /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/ZLIUtils.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLIUtils/ZLIUtils-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CB1FB28F1917522C00403479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1549AEE30B846D38F589BDF /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/ZLIUtils.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLIUtils/ZLIUtils-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CB1FB2911917522C00403479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLIUtils/ZLIUtils-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZLIUtilsTests/ZLIUtilsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB1FB2921917522C00403479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZLIUtils/ZLIUtils-Prefix.pch";
+				INFOPLIST_FILE = "ZLIUtilsTests/ZLIUtilsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB1FB2651917522C00403479 /* Build configuration list for PBXProject "ZLIUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1FB28B1917522C00403479 /* Debug */,
+				CB1FB28C1917522C00403479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1FB28D1917522C00403479 /* Build configuration list for PBXNativeTarget "ZLIUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1FB28E1917522C00403479 /* Debug */,
+				CB1FB28F1917522C00403479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1FB2901917522C00403479 /* Build configuration list for PBXNativeTarget "ZLIUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1FB2911917522C00403479 /* Debug */,
+				CB1FB2921917522C00403479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB1FB2621917522C00403479 /* Project object */;
+}
