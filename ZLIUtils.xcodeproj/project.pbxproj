@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A92C508838846F9A4C46EB7 /* libPods-ZLIUtilsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5D157044E940DBB7F295C4 /* libPods-ZLIUtilsTests.a */; };
 		2E42CB04CFC34A349CAD3D84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEBFFA98638428A96356384 /* libPods.a */; };
+		CB029E14191E18D200E537FE /* ZLIErrorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB029E13191E18D200E537FE /* ZLIErrorFactory.m */; };
+		CB029E17191E19C200E537FE /* ZLINetworkErrorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB029E16191E19C200E537FE /* ZLINetworkErrorFactory.m */; };
 		CB1FB26E1917522C00403479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB26D1917522C00403479 /* Foundation.framework */; };
 		CB1FB2731917522C00403479 /* ZLILogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB1FB2721917522C00403479 /* ZLILogger.h */; };
 		CB1FB2751917522C00403479 /* ZLILogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2741917522C00403479 /* ZLILogger.m */; };
@@ -16,7 +19,7 @@
 		CB1FB27F1917522C00403479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB27E1917522C00403479 /* UIKit.framework */; };
 		CB1FB2821917522C00403479 /* libZLIUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB26A1917522C00403479 /* libZLIUtils.a */; };
 		CB1FB2881917522C00403479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1FB2861917522C00403479 /* InfoPlist.strings */; };
-		CB1FB28A1917522C00403479 /* ZLIUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2891917522C00403479 /* ZLIUtilsTests.m */; };
+		CB1FB28A1917522C00403479 /* ZLIErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2891917522C00403479 /* ZLIErrorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,12 @@
 
 /* Begin PBXFileReference section */
 		1BEBFFA98638428A96356384 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5D157044E940DBB7F295C4 /* libPods-ZLIUtilsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLIUtilsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1549AEE30B846D38F589BDF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CB029E12191E18D200E537FE /* ZLIErrorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLIErrorFactory.h; sourceTree = "<group>"; };
+		CB029E13191E18D200E537FE /* ZLIErrorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLIErrorFactory.m; sourceTree = "<group>"; };
+		CB029E15191E19C200E537FE /* ZLINetworkErrorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLINetworkErrorFactory.h; sourceTree = "<group>"; };
+		CB029E16191E19C200E537FE /* ZLINetworkErrorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkErrorFactory.m; sourceTree = "<group>"; };
 		CB1FB26A1917522C00403479 /* libZLIUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZLIUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1FB26D1917522C00403479 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB1FB2711917522C00403479 /* ZLIUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZLIUtils-Prefix.pch"; sourceTree = "<group>"; };
@@ -55,7 +63,9 @@
 		CB1FB27E1917522C00403479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		CB1FB2851917522C00403479 /* ZLIUtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZLIUtilsTests-Info.plist"; sourceTree = "<group>"; };
 		CB1FB2871917522C00403479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CB1FB2891917522C00403479 /* ZLIUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLIUtilsTests.m; sourceTree = "<group>"; };
+		CB1FB2891917522C00403479 /* ZLIErrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLIErrorTests.m; sourceTree = "<group>"; };
+		CBB79AF71921F8580082FBAB /* ZLIUtils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZLIUtils.podspec; sourceTree = "<group>"; };
+		D98DFBFA051E43199D2486FE /* Pods-ZLIUtilsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLIUtilsTests.xcconfig"; path = "Pods/Pods-ZLIUtilsTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,7 @@
 				CB1FB27F1917522C00403479 /* UIKit.framework in Frameworks */,
 				CB1FB27D1917522C00403479 /* Foundation.framework in Frameworks */,
 				CB1FB2821917522C00403479 /* libZLIUtils.a in Frameworks */,
+				1A92C508838846F9A4C46EB7 /* libPods-ZLIUtilsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,11 +96,17 @@
 		CB1FB2611917522C00403479 = {
 			isa = PBXGroup;
 			children = (
+				CBB79AF71921F8580082FBAB /* ZLIUtils.podspec */,
+				CB029E15191E19C200E537FE /* ZLINetworkErrorFactory.h */,
+				CB029E16191E19C200E537FE /* ZLINetworkErrorFactory.m */,
+				CB029E12191E18D200E537FE /* ZLIErrorFactory.h */,
+				CB029E13191E18D200E537FE /* ZLIErrorFactory.m */,
 				CB1FB26F1917522C00403479 /* ZLIUtils */,
 				CB1FB2831917522C00403479 /* ZLIUtilsTests */,
 				CB1FB26C1917522C00403479 /* Frameworks */,
 				CB1FB26B1917522C00403479 /* Products */,
 				A1549AEE30B846D38F589BDF /* Pods.xcconfig */,
+				D98DFBFA051E43199D2486FE /* Pods-ZLIUtilsTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +126,7 @@
 				CB1FB27B1917522C00403479 /* XCTest.framework */,
 				CB1FB27E1917522C00403479 /* UIKit.framework */,
 				1BEBFFA98638428A96356384 /* libPods.a */,
+				4A5D157044E940DBB7F295C4 /* libPods-ZLIUtilsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,7 +152,7 @@
 		CB1FB2831917522C00403479 /* ZLIUtilsTests */ = {
 			isa = PBXGroup;
 			children = (
-				CB1FB2891917522C00403479 /* ZLIUtilsTests.m */,
+				CB1FB2891917522C00403479 /* ZLIErrorTests.m */,
 				CB1FB2841917522C00403479 /* Supporting Files */,
 			);
 			path = ZLIUtilsTests;
@@ -175,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB1FB2901917522C00403479 /* Build configuration list for PBXNativeTarget "ZLIUtilsTests" */;
 			buildPhases = (
+				CB5F4C10F37B4F22AC200466 /* Check Pods Manifest.lock */,
 				CB1FB2761917522C00403479 /* Sources */,
 				CB1FB2771917522C00403479 /* Frameworks */,
 				CB1FB2781917522C00403479 /* Resources */,
+				6629678A5E944115AEA0774B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +215,7 @@
 		CB1FB2621917522C00403479 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZLI;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = zhou;
 			};
@@ -228,6 +249,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6629678A5E944115AEA0774B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ZLIUtilsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		93060E002C834120956F0F0F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,6 +294,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		CB5F4C10F37B4F22AC200466 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -266,6 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB1FB2751917522C00403479 /* ZLILogger.m in Sources */,
+				CB029E14191E18D200E537FE /* ZLIErrorFactory.m in Sources */,
+				CB029E17191E19C200E537FE /* ZLINetworkErrorFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1FB28A1917522C00403479 /* ZLIUtilsTests.m in Sources */,
+				CB1FB28A1917522C00403479 /* ZLIErrorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +448,7 @@
 		};
 		CB1FB2911917522C00403479 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98DFBFA051E43199D2486FE /* Pods-ZLIUtilsTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -415,6 +469,7 @@
 		};
 		CB1FB2921917522C00403479 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98DFBFA051E43199D2486FE /* Pods-ZLIUtilsTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
