@@ -48,8 +48,11 @@
 
 /* Begin PBXFileReference section */
 		1BEBFFA98638428A96356384 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CD7CECD3B3113EC710312E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4A5D157044E940DBB7F295C4 /* libPods-ZLIUtilsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLIUtilsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1549AEE30B846D38F589BDF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		7D4E5ED3CF21DD35D6817525 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8D66C4DCF9D0BE62C927294D /* Pods-ZLIUtilsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLIUtilsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLIUtilsTests/Pods-ZLIUtilsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4C50771A687408B9B478E2A /* Pods-ZLIUtilsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLIUtilsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLIUtilsTests/Pods-ZLIUtilsTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB1FB26A1917522C00403479 /* libZLIUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZLIUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1FB26D1917522C00403479 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB1FB2711917522C00403479 /* ZLIUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZLIUtils-Prefix.pch"; sourceTree = "<group>"; };
@@ -68,7 +71,6 @@
 		CBB95F59192C39E800D82514 /* ZLINetworkErrorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkErrorFactory.m; sourceTree = "<group>"; };
 		CBB95F5C192C3A1900D82514 /* ZLIMathUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLIMathUtil.h; sourceTree = "<group>"; };
 		CBB95F5D192C3A1900D82514 /* ZLIMathUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLIMathUtil.m; sourceTree = "<group>"; };
-		D98DFBFA051E43199D2486FE /* Pods-ZLIUtilsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLIUtilsTests.xcconfig"; path = "Pods/Pods-ZLIUtilsTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3175D6B0DF06871FD02FECFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29CD7CECD3B3113EC710312E /* Pods.debug.xcconfig */,
+				7D4E5ED3CF21DD35D6817525 /* Pods.release.xcconfig */,
+				8D66C4DCF9D0BE62C927294D /* Pods-ZLIUtilsTests.debug.xcconfig */,
+				C4C50771A687408B9B478E2A /* Pods-ZLIUtilsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB1FB2611917522C00403479 = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +117,7 @@
 				CB1FB2831917522C00403479 /* ZLIUtilsTests */,
 				CB1FB26C1917522C00403479 /* Frameworks */,
 				CB1FB26B1917522C00403479 /* Products */,
-				A1549AEE30B846D38F589BDF /* Pods.xcconfig */,
-				D98DFBFA051E43199D2486FE /* Pods-ZLIUtilsTests.xcconfig */,
+				3175D6B0DF06871FD02FECFF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,7 +278,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-ZLIUtilsTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLIUtilsTests/Pods-ZLIUtilsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		93060E002C834120956F0F0F /* Copy Pods Resources */ = {
@@ -281,7 +293,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B6A4697B94D441759F8C27FC /* Check Pods Manifest.lock */ = {
@@ -428,12 +440,12 @@
 		};
 		CB1FB28E1917522C00403479 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1549AEE30B846D38F589BDF /* Pods.xcconfig */;
+			baseConfigurationReference = 29CD7CECD3B3113EC710312E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/ZLIUtils.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZLIUtils/ZLIUtils-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -441,12 +453,12 @@
 		};
 		CB1FB28F1917522C00403479 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1549AEE30B846D38F589BDF /* Pods.xcconfig */;
+			baseConfigurationReference = 7D4E5ED3CF21DD35D6817525 /* Pods.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/ZLIUtils.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZLIUtils/ZLIUtils-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -454,7 +466,7 @@
 		};
 		CB1FB2911917522C00403479 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D98DFBFA051E43199D2486FE /* Pods-ZLIUtilsTests.xcconfig */;
+			baseConfigurationReference = 8D66C4DCF9D0BE62C927294D /* Pods-ZLIUtilsTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -475,7 +487,7 @@
 		};
 		CB1FB2921917522C00403479 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D98DFBFA051E43199D2486FE /* Pods-ZLIUtilsTests.xcconfig */;
+			baseConfigurationReference = C4C50771A687408B9B478E2A /* Pods-ZLIUtilsTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
