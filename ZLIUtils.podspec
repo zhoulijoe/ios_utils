@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.source_files     = 'ZLIUtils/**/*.{h,m}'
   s.dependency 'CocoaLumberjack'
+  s.dependency 'Typhoon'
 end

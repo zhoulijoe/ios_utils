@@ -9,13 +9,18 @@ PODS:
   - Kiwi/XCTest (2.2.4):
     - Kiwi/ARC
     - Kiwi/NonARC
+  - Typhoon (2.1.0):
+    - Typhoon/no-arc
+  - Typhoon/no-arc (2.1.0)
 
 DEPENDENCIES:
   - CocoaLumberjack
   - Kiwi/XCTest
+  - Typhoon
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 9d198d6e19909b3b113a38c5f06f7bb8eedd0427
   Kiwi: c73667f2b84cbf36f1a3830267c5a4ae8dcbd8ba
+  Typhoon: 5af23b4d01c3aee0f3ba72464a1d92e7f93b3552
 
-COCOAPODS: 0.33.0
+COCOAPODS: 0.33.1
