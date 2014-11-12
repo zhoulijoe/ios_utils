@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		1A92C508838846F9A4C46EB7 /* libPods-ZLIUtilsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5D157044E940DBB7F295C4 /* libPods-ZLIUtilsTests.a */; };
 		2E42CB04CFC34A349CAD3D84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEBFFA98638428A96356384 /* libPods.a */; };
-		CB029E14191E18D200E537FE /* ZLIErrorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB029E13191E18D200E537FE /* ZLIErrorFactory.m */; };
-		CB029E17191E19C200E537FE /* ZLINetworkErrorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB029E16191E19C200E537FE /* ZLINetworkErrorFactory.m */; };
 		CB1FB26E1917522C00403479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB26D1917522C00403479 /* Foundation.framework */; };
 		CB1FB2731917522C00403479 /* ZLILogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB1FB2721917522C00403479 /* ZLILogger.h */; };
 		CB1FB2751917522C00403479 /* ZLILogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2741917522C00403479 /* ZLILogger.m */; };
@@ -20,6 +18,9 @@
 		CB1FB2821917522C00403479 /* libZLIUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1FB26A1917522C00403479 /* libZLIUtils.a */; };
 		CB1FB2881917522C00403479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1FB2861917522C00403479 /* InfoPlist.strings */; };
 		CB1FB28A1917522C00403479 /* ZLIErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1FB2891917522C00403479 /* ZLIErrorTests.m */; };
+		CBB95F5A192C39E800D82514 /* ZLIErrorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB95F57192C39E800D82514 /* ZLIErrorFactory.m */; };
+		CBB95F5B192C39E800D82514 /* ZLINetworkErrorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB95F59192C39E800D82514 /* ZLINetworkErrorFactory.m */; };
+		CBB95F5E192C3A1900D82514 /* ZLIMathUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB95F5D192C3A1900D82514 /* ZLIMathUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +50,6 @@
 		1BEBFFA98638428A96356384 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5D157044E940DBB7F295C4 /* libPods-ZLIUtilsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLIUtilsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1549AEE30B846D38F589BDF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		CB029E12191E18D200E537FE /* ZLIErrorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLIErrorFactory.h; sourceTree = "<group>"; };
-		CB029E13191E18D200E537FE /* ZLIErrorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLIErrorFactory.m; sourceTree = "<group>"; };
-		CB029E15191E19C200E537FE /* ZLINetworkErrorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLINetworkErrorFactory.h; sourceTree = "<group>"; };
-		CB029E16191E19C200E537FE /* ZLINetworkErrorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkErrorFactory.m; sourceTree = "<group>"; };
 		CB1FB26A1917522C00403479 /* libZLIUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZLIUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1FB26D1917522C00403479 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB1FB2711917522C00403479 /* ZLIUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZLIUtils-Prefix.pch"; sourceTree = "<group>"; };
@@ -65,6 +62,12 @@
 		CB1FB2871917522C00403479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB1FB2891917522C00403479 /* ZLIErrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLIErrorTests.m; sourceTree = "<group>"; };
 		CBB79AF71921F8580082FBAB /* ZLIUtils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZLIUtils.podspec; sourceTree = "<group>"; };
+		CBB95F56192C39E800D82514 /* ZLIErrorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLIErrorFactory.h; sourceTree = "<group>"; };
+		CBB95F57192C39E800D82514 /* ZLIErrorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLIErrorFactory.m; sourceTree = "<group>"; };
+		CBB95F58192C39E800D82514 /* ZLINetworkErrorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLINetworkErrorFactory.h; sourceTree = "<group>"; };
+		CBB95F59192C39E800D82514 /* ZLINetworkErrorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLINetworkErrorFactory.m; sourceTree = "<group>"; };
+		CBB95F5C192C3A1900D82514 /* ZLIMathUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLIMathUtil.h; sourceTree = "<group>"; };
+		CBB95F5D192C3A1900D82514 /* ZLIMathUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLIMathUtil.m; sourceTree = "<group>"; };
 		D98DFBFA051E43199D2486FE /* Pods-ZLIUtilsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLIUtilsTests.xcconfig"; path = "Pods/Pods-ZLIUtilsTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,10 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				CBB79AF71921F8580082FBAB /* ZLIUtils.podspec */,
-				CB029E15191E19C200E537FE /* ZLINetworkErrorFactory.h */,
-				CB029E16191E19C200E537FE /* ZLINetworkErrorFactory.m */,
-				CB029E12191E18D200E537FE /* ZLIErrorFactory.h */,
-				CB029E13191E18D200E537FE /* ZLIErrorFactory.m */,
 				CB1FB26F1917522C00403479 /* ZLIUtils */,
 				CB1FB2831917522C00403479 /* ZLIUtilsTests */,
 				CB1FB26C1917522C00403479 /* Frameworks */,
@@ -134,9 +133,15 @@
 		CB1FB26F1917522C00403479 /* ZLIUtils */ = {
 			isa = PBXGroup;
 			children = (
+				CBB95F56192C39E800D82514 /* ZLIErrorFactory.h */,
+				CBB95F57192C39E800D82514 /* ZLIErrorFactory.m */,
+				CBB95F58192C39E800D82514 /* ZLINetworkErrorFactory.h */,
+				CBB95F59192C39E800D82514 /* ZLINetworkErrorFactory.m */,
 				CB1FB2721917522C00403479 /* ZLILogger.h */,
 				CB1FB2741917522C00403479 /* ZLILogger.m */,
 				CB1FB2701917522C00403479 /* Supporting Files */,
+				CBB95F5C192C3A1900D82514 /* ZLIMathUtil.h */,
+				CBB95F5D192C3A1900D82514 /* ZLIMathUtil.m */,
 			);
 			path = ZLIUtils;
 			sourceTree = "<group>";
@@ -317,8 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB1FB2751917522C00403479 /* ZLILogger.m in Sources */,
-				CB029E14191E18D200E537FE /* ZLIErrorFactory.m in Sources */,
-				CB029E17191E19C200E537FE /* ZLINetworkErrorFactory.m in Sources */,
+				CBB95F5A192C39E800D82514 /* ZLIErrorFactory.m in Sources */,
+				CBB95F5B192C39E800D82514 /* ZLINetworkErrorFactory.m in Sources */,
+				CBB95F5E192C3A1900D82514 /* ZLIMathUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
