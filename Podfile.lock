@@ -1,17 +1,16 @@
 PODS:
-  - CocoaLumberjack (2.0.0-beta2):
-    - CocoaLumberjack/CLI
-    - CocoaLumberjack/Core
+  - CocoaLumberjack (2.0.0-beta4):
+    - CocoaLumberjack/Default
     - CocoaLumberjack/Extensions
-  - CocoaLumberjack/CLI (2.0.0-beta2):
+  - CocoaLumberjack/Core (2.0.0-beta4)
+  - CocoaLumberjack/Default (2.0.0-beta4):
     - CocoaLumberjack/Core
-  - CocoaLumberjack/Core (2.0.0-beta2)
-  - CocoaLumberjack/Extensions (2.0.0-beta2):
-    - CocoaLumberjack/Core
-  - Kiwi (2.3.0)
-  - Typhoon (2.2.1):
+  - CocoaLumberjack/Extensions (2.0.0-beta4):
+    - CocoaLumberjack/Default
+  - Kiwi (2.3.1)
+  - Typhoon (2.3.0):
     - Typhoon/no-arc
-  - Typhoon/no-arc (2.2.1)
+  - Typhoon/no-arc (2.3.0)
 
 DEPENDENCIES:
   - CocoaLumberjack
@@ -19,8 +18,8 @@ DEPENDENCIES:
   - Typhoon
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: 956d3fb98fed498a13d56499f262c975ef431c98
-  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
-  Typhoon: 9b807bc020c4945824ee19130bb11fb3ef5eaea8
+  CocoaLumberjack: 24153b24b17d853d7182b22b128971fb98e8cb18
+  Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
+  Typhoon: ee9b8c034b11746f8024a0487965c04965a6a4ee
 
 COCOAPODS: 0.34.2
