@@ -3,7 +3,7 @@
 
 #import "ZLILogger.h"
 
-const int ddLogLevel = LOG_LEVEL_DEBUG;
+const int ddLogLevel = DDLogLevelDebug;
 
 @implementation ZLILogger
 

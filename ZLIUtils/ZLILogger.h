@@ -1,4 +1,4 @@
-#import <DDLog.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 extern const int ddLogLevel;
 
